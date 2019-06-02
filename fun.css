@@ -1,0 +1,25 @@
+.circle {
+    background-color: #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 0;
+    position :relative;
+    animation: jump;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    
+    
+    
+}
+@keyframes jump {
+    from {
+        top: 0;
+    }
+    to{
+        top: 100px;
+    }
+}
+
